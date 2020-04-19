@@ -5,7 +5,7 @@
 3. Name 5 core modules, and 5 global objects from Node.
   
 ## Coding Exercise
-* Create Express web server that receives a `GET` request to `/calculate`. This route will receive a number passed in the request as query parameter as following: `http://localhost:3000/calculate?n=5` and returns a `JSON` object contains the Fibonacci number of `n`.
+* Create an Express web server that receives a `GET` request to `/calculate`. This route will receive a number passed in the request as query parameter as following: `http://localhost:3000/calculate?n=5` and returns a `JSON` object contains the Fibonacci number of `n`.
 * Write a middleware to validate that the users are passing `n` as query parameter and the value is a valid `number`. (Feel free to use any validation third-party middleware, or write your own)
   
 **Example**: `/calculate?n=10` should return a `JSON` object: `{fib: 55}`  
