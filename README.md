@@ -1,6 +1,6 @@
 # CS571-Homework-01
 ## Written Exercises
-1. Explain why do we want sometimes to use `setImmediate` instead of using `setTimeout`? 
+1. Explain Node Event-Loop and the role of each queue, and how we schedule callback functions in the queues? 
 2. Explain the difference between `process.nextTick` and `setImmediate`?
 3. Name 5 core modules, and 5 global objects from Node.
   
