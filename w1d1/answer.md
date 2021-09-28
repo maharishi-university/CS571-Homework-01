@@ -38,6 +38,6 @@
   <li>setTimeout()</li>
   <li>clearTimeout()</li>
   <li>__dirname</li>
-    <li>setInterval()</li>
+  <li>setInterval()</li>
 
   ***
