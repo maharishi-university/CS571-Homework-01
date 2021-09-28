@@ -25,13 +25,18 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 
-app.get('/fib',(req,res)=>{
-  res.json({
-    name:"daniel",
-    age:27,
-    and:4
-  })
+app.get('/fib:n',(req,res,next)=>{
+  calCputIntensiveFibValue(req.params.n,(err,result)=>{
+ if(err) next('error');
+   else{
+  res.send({
+   n:req.params.n,result:result
+     
+   })
+  }
 })
+})
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
