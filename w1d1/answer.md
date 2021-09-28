@@ -21,18 +21,23 @@
   >Answer Q3
 
   ***
-  #  Some of hte the Core Modules in node  are
-  1.url
-  2.path
-  3.fs
-  4.http
-  5.querystring
+  #  Some of  the Core Modules in node  are
+  <ol>
+  <li>url</li>
+  <li>path</li>
+  <li>fs</li>
+  <li>http</li>
+  <li>queryString</li>
+ 
+ 
   ***
     ***
-  #  Some of hte the node global objects  are
-  1.__filename
-  2.__dirname
-  3.setTimeout()
-  4.clearTimeout()
-  5.setInterval()
+  #  Some of  the node global objects  are
+   <ol>
+  <li>__filename</li>
+  <li>setTimeout()</li>
+  <li>clearTimeout()</li>
+  <li>__dirname</li>
+    <li>setInterval()</li>
+
   ***
